@@ -2,7 +2,7 @@
 
 **Customer Churn Prediction System** - An end-to-end machine learning solution for predicting telecom customer churn using XGBoost and SHAP explainability.
 
-![ChurnGuard ML](https://img.shields.io/badge/AUC-0.8252-brightgreen) ![Python](https://img.shields.io/badge/Python-3.9+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.27+-red)
+![Python](https://img.shields.io/badge/Python-3.9+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.27+-red)
 
 ## Overview
 
@@ -130,9 +130,9 @@ MIT License - feel free to use this project for learning or commercial purposes.
 ## Author
 
 **Nishtha Wagh**
-- Portfolio: [TheDataSkeptic.com](https://thedataskeptic.com)
+- Portfolio: [TheDataSkeptic](https://thedataskeptic.vercel.app/)
 - LinkedIn: [linkedin.com/in/nishthawagh](https://linkedin.com/in/nishthawagh)
-- GitHub: [@MisfitDS](https://github.com/MisfitDS)
+- GitHub: [@Nishtha Wagh](https://github.com/nishtha-wagh)
 
 ## Acknowledgments
 
