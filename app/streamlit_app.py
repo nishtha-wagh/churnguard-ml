@@ -7,6 +7,12 @@ import plotly.express as px
 from PIL import Image
 import os
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE_DIR.parent
+MODELS_DIR = PROJECT_ROOT / "models"
+
 # Page config
 st.set_page_config(
     page_title="ChurnGuard ML",
@@ -84,15 +90,15 @@ st.markdown("""
 # Load model
 @st.cache_resource
 def load_model():
-    model = joblib.load('../models/churnguard_model.joblib')
-    label_encoders = joblib.load('../models/label_encoders.joblib')
-    feature_names = joblib.load('../models/feature_names.joblib')
+    model = joblib.load(MODELS_DIR / "churnguard_model.joblib")
+    label_encoders = joblib.load(MODELS_DIR / "label_encoders.joblib")
+    feature_names = joblib.load(MODELS_DIR / "feature_names.joblib")
     return model, label_encoders, feature_names
 
 try:
     model, label_encoders, feature_names = load_model()
-except:
-    st.error("Could not load model files. Please run the notebook first!")
+except Exception as e:
+    st.error(f"Could not load model artifacts: {e}")
     st.stop()
 
 # Title
