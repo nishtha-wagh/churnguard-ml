@@ -2,7 +2,7 @@
 
 **Customer Churn Prediction System** - An end-to-end machine learning solution for predicting telecom customer churn using XGBoost and SHAP explainability.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.27+-red)
+![Python](https://img.shields.io/badge/Python-3.13-blue)  ![Streamlit](https://img.shields.io/badge/Streamlit-1.54-red)
 
 ## Overview
 
