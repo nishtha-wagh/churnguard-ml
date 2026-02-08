@@ -1,13 +1,13 @@
-# Core numerical stack (stable on Py 3.11)
+# Core numerical stack (stable, wheels available on Streamlit Cloud)
 numpy>=1.24.4,<2.0
 pandas>=2.0.3,<2.3
 
-# ML
+# Machine Learning
 scikit-learn>=1.3.2,<1.6
 xgboost>=2.0.3,<3.0
 shap>=0.43.0,<0.46
 
-# Viz
+# Visualization
 matplotlib>=3.7.2,<3.9
 seaborn>=0.12.2,<0.14
 plotly>=5.17.0,<6.0
@@ -18,7 +18,3 @@ streamlit>=1.30.0,<2.0
 # Utilities
 joblib>=1.3.2,<2.0
 Pillow>=10.1.0,<11.0
-
-# Optional: only keep these if you actually run FastAPI separately
-fastapi>=0.110.0,<1.0
-uvicorn>=0.23.2,<0.30
